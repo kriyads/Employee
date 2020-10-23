@@ -37,7 +37,7 @@
     <ID>1204</ID>
     <Name>Sharvari</Name>
     <Age>22</Age>
-    <Salary>90000</Salary>
+    <Salary>60000</Salary>
     <Email>sharvari@gmail.com</Email>  
     <MobNum>9955778866</MobNum>
     <Designation>Architect</Designation>
@@ -47,7 +47,7 @@
     <ID>1205</ID>
     <Name>Tejas</Name>
     <Age>24</Age>
-    <Salary>85000</Salary>
+    <Salary>55000</Salary>
     <Email>tejas@gmail.com</Email>  
     <MobNum>9977885566</MobNum>
     <Designation>Designer</Designation>
