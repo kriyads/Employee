@@ -56,7 +56,7 @@
                                     <xsl:value-of select="Designation"/>
                                 </td>
                                 <td>
-                                <xsl:if test="Age &gt;= 50">
+                                    <xsl:if test="Age &gt;= 50">
                                         <span>Associate Project Manager</span>
                                     </xsl:if>
                                     <xsl:if test="(Age &gt;= 40) and (Age &lt;= 49)">
@@ -64,7 +64,7 @@
                                     </xsl:if>
                                     <xsl:if test="Age &lt; 40">
                                         <span>Developer</span>
-                                </xsl:if>
+                                    </xsl:if>
                                 </td>
                             </tr>
                         </xsl:for-each>
