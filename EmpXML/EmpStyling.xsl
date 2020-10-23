@@ -6,7 +6,7 @@
             <head>
                 <style>
             div
-            {
+            {  
                 text-align:center; 
                 width:48%;
                 border:2px solid black;
