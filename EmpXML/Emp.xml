@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="EmpStyling.xsl"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="EmpSchema.xsd">
+
+<Employee>
+    <ID>1201</ID>
+    <Name>Kriya</Name>
+    <Age>21</Age>
+    <Salary>130000</Salary>
+    <Email>kriya@gmail.com</Email>  
+    <MobNum>9988776655</MobNum>
+    <Designation>Developer</Designation>
+</Employee>
+
+<Employee>
+    <ID>1202</ID>
+    <Name>Sanju</Name>
+    <Age>52</Age>
+    <Salary>100000</Salary>
+    <Email>sanju@gmail.com</Email>  
+    <MobNum>9977558866</MobNum>
+    <Designation>Business</Designation>
+</Employee>
+
+<Employee>
+    <ID>1203</ID>
+    <Name>Varini</Name>
+    <Age>45</Age>
+    <Salary>80000</Salary>
+    <Email>varini@gmail.com</Email>  
+    <MobNum>9988556677</MobNum>
+    <Designation>Proprietor</Designation>
+</Employee>
+
+<Employee>
+    <ID>1204</ID>
+    <Name>Sharvari</Name>
+    <Age>22</Age>
+    <Salary>90000</Salary>
+    <Email>sharvari@gmail.com</Email>  
+    <MobNum>9955778866</MobNum>
+    <Designation>Architect</Designation>
+</Employee>
+
+<Employee>
+    <ID>1205</ID>
+    <Name>Tejas</Name>
+    <Age>24</Age>
+    <Salary>85000</Salary>
+    <Email>tejas@gmail.com</Email>  
+    <MobNum>9977885566</MobNum>
+    <Designation>Designer</Designation>
+</Employee>
+
+</Company>

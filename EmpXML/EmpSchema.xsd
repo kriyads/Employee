@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <xsd:simpleType name="email"> 
+    <xsd:restriction base="xsd:string"> 
+      <xsd:pattern value="[^@]+@[^\.]+\..+"/> 
+    </xsd:restriction> 
+  </xsd:simpleType> 
+
+  <xsd:simpleType name="sal">
+    <xsd:restriction base="xsd:integer">
+      <xsd:minInclusive value="50000"/>
+      <xsd:maxInclusive value="200000"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+<xsd:element name="Company">
+  <xsd:complexType>
+    <xsd:sequence>
+      <xsd:element name="Employee" maxOccurs="unbounded">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="ID" type="xsd:integer" />
+            <xsd:element name="Name" type="xsd:string" />
+            <xsd:element name="Age" type="xsd:integer" />
+            <xsd:element name="Salary" type="sal" />
+            <xsd:element name="Email" type="email" />
+            <xsd:element name="Mob" type="xsd:integer" />
+            <xsd:element name="Des" type="xsd:string" />
+          </xsd:sequence> 
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:element>
+</xsd:schema> 
